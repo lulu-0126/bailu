@@ -1,0 +1,6 @@
+apiVersion: edge.cloud/v1
+kind: NodeManagement
+metadata:
+  name: nodemanagement-sample
+spec:
+  # TODO(user): Add fields here

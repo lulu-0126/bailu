@@ -1,0 +1,16 @@
+domain: cloud
+layout:
+- go.kubebuilder.io/v3
+projectName: bailu
+repo: igitlab.lenovo.com/lecp/mec/bailu
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: cloud
+  group: edge
+  kind: NodeManagement
+  path: igitlab.lenovo.com/lecp/mec/bailu/api/v1
+  version: v1
+version: "3"
